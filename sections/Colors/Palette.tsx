@@ -10,8 +10,7 @@ export interface Props {
 
 function Palette(props:Props) {
     return(
-        <main className={`h-screen relative flex flex-col`}>
-        <h1>My Palette</h1>
+        <main className={`relative flex flex-col`}>
         <ListColors size={props.size}/>
         </main>
     )
