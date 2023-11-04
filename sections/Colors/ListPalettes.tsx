@@ -9,7 +9,7 @@ export async function loader(
   _req: Request,
 ) {
   const res = (await fetch(
-    `http://cores.eu-4.evennode.com/`,
+    `https://dry-violet-9746.fly.dev/`,
   ).then((r) => r.json()));
   
   return { res };

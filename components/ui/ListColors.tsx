@@ -27,7 +27,7 @@ function ListColors(props: Props) {
       colors.push(event.target[`color-${i}`].value);
     }
     console.log(colors)
-    fetch("http://cores.eu-4.evennode.com/", {
+    fetch("https://dry-violet-9746.fly.dev/", {
       method: "POST",
       body: JSON.stringify({
         colors: colors,
